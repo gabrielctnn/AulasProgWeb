@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(18, 18, 18)
+}
+
+nav {
+    background-color: rgb(12, 12, 12);
+    padding: 1%;
+}
+
+nav a {
+    color: white;
+    font-size: 30px;
+    /* superior | direita | inferior | esquerda */
+    padding: 2%;
+    text-decoration-line: none;
+}
+
+nav a:hover {
+    color: rgb(90, 0, 159);
+    transition: 0.3s;
+}
+
+/*---------------  CSS aula 3 ----------------- */
+main {
+    margin: 1%;
+}
+
+p {
+    font-family: 'Times New Roman', cursive;
+    font-size: 25px;
+    color: white;
+    padding: 1%;
+}
+
+
+#resultado1,
+#resultado2 {
+    color: #00ff00;
+    /* Cor verde vibrante para o resultado */
+    padding-top: 1%;
+    font-size: 25px;
+}
+
+#principal1,
+#principal2 {
+    display: flex;
+    padding: 1%;
+    flex-direction: column;
+    /* Coloca os itens um abaixo do outro */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+#numero1,
+#numero2 {
+    padding: 0.5% 0% 0.5% 1%;
+    margin: 0.4%;
+    border-radius: 10px;
+}
+
+#btnCompara {
+    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+#btnCompara:hover {
+    background-color: rgb(58, 0, 102);
+    transition: 0.5s;
+    color: white;
+    border: none;
+}
+
+#idadeUsuario {
+    padding: 0.5% 0% 0.5% 1%;
+    margin: 0.4%;
+    border-radius: 10px;
+}
+
+#verificar {
+    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+     border: none;
+}
+
+#verificar:hover{
+      background-color: rgb(58, 0, 102);
+    transition: 0.5s;
+    color: white;
+    border: none;
+}

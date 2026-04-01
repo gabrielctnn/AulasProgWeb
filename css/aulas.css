@@ -1,0 +1,142 @@
+/*---------------  CSS BASE ----------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(18, 18, 18)
+}
+
+nav {
+    background-color: rgb(12, 12, 12);
+    padding: 1%;
+}
+
+nav a {
+    color: white;
+    font-size: 30px;
+    /* superior | direita | inferior | esquerda */
+    padding: 2%;
+    text-decoration-line: none;
+}
+
+nav a:hover {
+    color:  rgb(90, 0, 159);
+    transition: 0.3s;
+}
+
+main {
+    margin: 1%;
+}
+
+#aulas p {
+    width: 70%;
+    font-size: 20px;
+    padding-top: 2%;
+    color: white
+}
+
+#aulas h2 {
+    font-weight: bold;
+    font-size: 35px;
+    color:  rgb(90, 0, 159);
+    text-decoration-line: none;
+    
+}
+
+
+/*---------------  aula 1 ----------------- */
+#aula1 {
+    margin: 4% 4% 0% 4%;
+    display: flex;
+    flex-direction: column; /* Coloca os itens um abaixo do outro */
+    align-items: center;    /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+
+#btnAula1 {
+    background-color: rgb(90, 0, 159);
+    color: white;
+    padding: 1.5% 5% 1.5% 5%;
+    border-radius: 50px;
+    font-size: 25px;
+    text-decoration-line: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#btnAula1:hover {
+    background-color: rgb(58, 0, 102);
+    transition: 0.5s;
+}
+
+
+/*---------------  aula 2 ----------------- */
+#aula2 {
+    margin: 4% 4% 0% 4%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column; /* Coloca os itens um abaixo do outro */
+    align-items: center;    /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+
+/*---------------  aula 3 ----------------- */
+#aula3 {
+    margin: 4% 4% 0% 4%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column; /* Coloca os itens um abaixo do outro */
+    align-items: center;    /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+
+
+#btnAula3 {
+    background-color: rgb(90, 0, 159);
+    color: white;
+    padding: 1.5% 5% 1.5% 5%;
+    border-radius: 50px;
+    font-size: 25px;
+    text-decoration-line: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#btnAula3:hover {
+    background-color: rgb(58, 0, 102);
+    transition: 0.5s;
+}
+
+/*---------------  aula 4 ----------------- */
+#aula4 {
+    margin: 4% 4% 0% 4%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;     
+    align-items: center;    
+    text-align: center;
+}
+
+
+
+#btnAula4 {
+    background-color: rgb(90, 0, 159);
+    color: white;
+    padding: 1.5% 5% 1.5% 5%;
+    border-radius: 50px;
+    font-size: 25px;
+    text-decoration-line: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#btnAula4:hover {
+    background-color: rgb(58, 0, 102);
+    transition: 0.5s;
+}

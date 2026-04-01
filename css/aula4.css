@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(18, 18, 18)
+}
+
+nav {
+    background-color: rgb(12, 12, 12);
+    padding: 1%;
+}
+
+nav a {
+    color: white;
+    font-size: 30px;
+    /* superior | direita | inferior | esquerda */
+    padding: 2%;
+    text-decoration-line: none;
+}
+
+nav a:hover {
+    color: rgb(90, 0, 159);
+    transition: 0.3s;
+}
+
+/*---------------  CSS aula 4 ----------------- */
+
+main {
+    padding: 1%;
+    font-family: 'Times New Roman', cursive;
+    font-size: 25px;
+    color: white;
+    padding: 1%;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    /* Coloca os itens um abaixo do outro */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+#principal input {
+    padding: 0.5% 0% 0.5% 1%;
+    margin: 0.4%;
+    border-radius: 10px;
+    padding: 0.5% 0% 0.5% 1%;
+    margin: 0.4%;
+    border-radius: 10px;
+}
+
+#principal input:focus {
+    outline: 2px solid rgb(255, 255, 255); /* Usa o roxo que você já definiu no hover */
+}
+
+#resultado {
+    padding-top: 2%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* Coloca os itens um abaixo do outro */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+#principal button {
+    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: none;
+}

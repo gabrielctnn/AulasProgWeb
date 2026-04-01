@@ -1,0 +1,51 @@
+/*---------------  CSS BASE ----------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(18, 18, 18)
+}
+
+nav {
+    background-color: rgb(12, 12, 12);
+    padding: 1%;
+}
+
+nav a {
+    color: white;
+    font-size: 30px;
+    /* superior | direita | inferior | esquerda */
+    padding: 2%;
+    text-decoration-line: none;
+}
+
+nav a:hover {
+    color: rgb(90, 0, 159);
+    transition: 0.3s;
+}
+
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+#boasVindas {
+    display: flex;
+    padding: 5%;
+    align-items: center;
+}
+
+strong {
+    color: rgb(90, 0, 159);
+}
+
+#boasVindas img {
+    border-radius: 20%;
+    border-color: white;
+    padding-left: 1%;
+    width: 50%;
+}
