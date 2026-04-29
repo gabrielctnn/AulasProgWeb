@@ -44,7 +44,7 @@ function exibir(){
 
     usuarios.forEach((user, index) => {
         let item = `<li>
-        ${user.nome} - ${user.email} - ${user.idade} - ${user.sexo} - ${user.termos}
+        Nome: ${user.nome} - Email: ${user.email} - Idade: ${user.idade} - Sexo: ${user.sexo} - Termo aceito: ${user.termos}
         <button class="editar" onClick="editar(${index})">Editar</button>
         <button class="excluir" onClick="excluir(${index})">Excluir</button>
         </li>`;
