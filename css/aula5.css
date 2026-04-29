@@ -7,27 +7,56 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #f4f7f6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
+
+nav {
+    background-color: rgb(12, 12, 12);
+    padding: 1%;
+
 }
 
+nav a {
+    color: white;
+    font-size: 30px;
+    /* superior | direita | inferior | esquerda */
+    padding: 2%;
+    text-decoration-line: none;
+}
+
+nav a:hover {
+    color: rgb(90, 0, 159);
+    transition: 0.3s;
+}
+
+
+
+body {
+
+    background-color: #121212;
+    min-height: 100vh;
+    /* Adições para centralização real: */
+    display: flex;
+    flex-direction: column; /* Faz o nav ficar em cima e o container embaixo */
+}
+
+
+
+
 .container {
-    background: #ffffff;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fffbef;
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px;
+    max-width: 400px;   
+    margin: auto;
 }
 
 h1 {
-    color: #333;
+    color: #000000;
     margin-bottom: 1.5rem;
     text-align: center;
     font-weight: 600;
@@ -41,7 +70,7 @@ h1 {
 label {
     margin-bottom: 5px;
     font-size: 0.9rem;
-    color: #666;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -59,7 +88,7 @@ select {
 }
 
 input:focus, select:focus {
-    border-color: #4A90E2;
+    border-color: #5a009f
 }
 
 /* Estilizando o Checkbox */
@@ -79,7 +108,7 @@ input[type="checkbox"] {
 }
 
 button {
-    background-color: #4A90E2;
+    background-color: #5a009f;
     color: white;
     padding: 12px;
     border: none;
@@ -91,7 +120,7 @@ button {
 }
 
 button:hover {
-    background-color: #357ABD;
+    background-color: #3a0066;
 }
 
 button:active {
